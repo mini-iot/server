@@ -1,0 +1,23 @@
+Time : 16:49:20
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : Select * from users where username=:n
+
+Time : 16:48:59
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : Select * from users where username=:n
+
+Time : 16:48:35
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : Select * from users where username=:n
+
+Time : 16:48:24
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : Select * from users where username=:n
+
+Time : 16:48:19
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : Select * from users where username=:n
+
+Time : 06:05:07
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'where clause'
+Raw SQL : Select * from users where user_name=:n and user_pwd=:p order by id desc limit 0,1

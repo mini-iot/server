@@ -1,0 +1,3 @@
+Time : 06:38:08
+SQLSTATE[HY000]: General error: 1364 Field 'is_execute' doesn't have a default value
+Raw SQL : INSERT INTO cmds(cmd,device_key) VALUES(:c,:k)
